@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  background: linear-gradient(30deg, #907cff, #5682b4, #ff3939);
+  width: 40%;
+  padding: 50px;
+  -webkit-box-shadow: 2px 2px 8px black;
+          box-shadow: 2px 2px 8px black;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form label {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px;
+  font-size: 20px;
+  color: #222;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form input:hover {
+  -webkit-box-shadow: inset 6px 0px 0px 0px #3273af;
+          box-shadow: inset 6px 0px 0px 0px #3273af;
+  background: #b4d8fa;
+}
+
+form button {
+  border: 3px solid #36ff68;
+  background: none;
+  font-weight: bold;
+  padding: 10px;
+  width: 200px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+form button:hover {
+  background: #70ff94;
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+form button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
