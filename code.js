@@ -16,7 +16,7 @@ const makeCalculations = (e) => {
     let activeA = aValue.value;
     let activeB = bValue.value;
     let activeC = cValue.value;
-
+    
     // OBLICZANIE DELTY
     const delta = obliczDelte(activeA, activeB, activeC);
     obliczMZ(delta);
@@ -34,7 +34,7 @@ const makeCalculations = (e) => {
     } else if (activeB < 0 && activeC >= 0) {
         ogólnaWynik.textContent = `y = ${activeA}x² - ${-activeB}x + ${activeC}`;
     } else if (activeB >= 0 && activeC >= 0) {
-        ogólnaWynik.textContent = `y = ${activeA}x² + ${-activeB}x + ${activeC}`;
+        ogólnaWynik.textContent = `y = ${activeA}x² + ${activeB}x + ${activeC}`;
     }
 
     // WYŚWIETLANIE WIERZCHOŁKÓW PARABOLI
