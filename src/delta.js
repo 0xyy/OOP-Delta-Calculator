@@ -27,11 +27,11 @@ class Delta {
 
     getRoots() {
         if (this.getDelta() < 0) {
-            return '0 miejsc zerowych';
+            return '0 roots';
         } else if (this.getDelta() === 0) {
-            return '1 miejsce zerowe';
+            return '1 roots';
         } else if (this.getDelta() > 1) {
-            return '2 rózne miejsca zerowe';
+            return '2 different roots';
         }
     }
 
