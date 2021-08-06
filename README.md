@@ -1,2 +1,2 @@
-# kalkulator delty
+# delta calculator
  
