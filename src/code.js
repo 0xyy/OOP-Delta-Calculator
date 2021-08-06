@@ -27,7 +27,6 @@ const showResults = e => {
         alert(err.name + ': ' + err.message);
     }
 
-
     aValue.value = '';
     bValue.value = '';
     cValue.value = '';

@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Delta calculator</title>
     <link rel="stylesheet" href="main.css">
-
 </head>
 <body>
     <div class="container">
         <div>
             <h1>Kalkulator Delty</h1>
             <form action="">
-                <label for="a-value">podaj a</label><input id="a-value"type="number"><br>
-                <label for="b-value">podaj b</label><input id="b-value"type="number"><br>
-                <label for="c-value">podaj c</label><input id="c-value"type="number"><br>
-                <button id="submit-button">Oblicz</button>
+                <label for="a-value">Enter a</label><input id="a-value"type="number"><br>
+                <label for="b-value">Enter b</label><input id="b-value"type="number"><br>
+                <label for="c-value">Enter c</label><input id="c-value"type="number"><br>
+                <button id="submit-button">Count</button>
             </form> 
         <div>
             <p>Delta: <span id="delta"></span></p>
-            <p>Miejsca zerowe: <span id="roots"></span></p>
-            <p>Wierzchołki paraboli: <span id="apex"></span></p>
-            <p>Postać ogólna: <span id="general-form"></span> </p>
-            <p>Postać kanoniczna: <span id="canonical-form"></span> </p>
+            <p>Roots: <span id="roots"></span></p>
+            <p>Vertex of a parabola: <span id="apex"></span></p>
+            <p>General form: <span id="general-form"></span> </p>
+            <p>Canonical form: <span id="canonical-form"></span> </p>
         </div>
     </div>
     <script src="src/delta.js"></script>
